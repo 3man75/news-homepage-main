@@ -20,17 +20,57 @@ body {
 li {
   list-style: none;
 }
-
+/* Nav */
 header {
   color: var(--primary-org);
   justify-content: space-between;
+  padding-top:2em;
+  padding-bottom:1em;
 }
+.navWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .nav--items {
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  gap: 1em;
+  justify-content: flex-end;
 }
+.nav--items a {
+  color: darkgray;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9em;
+  padding:1em;
+  border-radius:100vmax;
+}
+.nav--items a:hover {
+  color:lightgrey;
+  background-color: var(--neu_drk_blue);
+  width:2em;
+  transition:all 0.5s ease-in-out;
+
+
+}
+.headerImg {
+  padding:.6em;
+  margin-bottom:1em;
+  border-radius:1em;
+  cursor:pointer;
+}
+
+.headerImg:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  border:2px solid var(--neu_drk_blue);
+  cursor:pointer;
+}
+
 
 .hero {
   display: grid;
