@@ -21,7 +21,6 @@ li {
   list-style: none;
 }
 
-/* Header */
 header {
   color: var(--primary-org);
   justify-content: space-between;
@@ -51,4 +50,15 @@ header {
 .hero--text {
     grid-row: 1/2;
     grid-column: 2/3;
+}
+.readMore {
+
+  background-color: var(--primary-org);
+}
+.blue {
+  background-color: var(--neu_drk_blue);
+  color: var(--neu_white);
+}
+#newsTitle {
+  color: var(--primary-red);
 }
