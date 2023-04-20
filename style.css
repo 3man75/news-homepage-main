@@ -52,8 +52,12 @@ header {
     grid-column: 2/3;
 }
 .readMore {
+  color: var(--neu_white);
+  background-color: var(--primary-red); /*Need to: get space between continue button. Color text as white.*/
+  font-size: large;
+  padding: 1em;
+  width: 2.5em;
 
-  background-color: var(--primary-org);
 }
 .blue {
   background-color: var(--neu_drk_blue);
